@@ -1,5 +1,3 @@
-package com.probsol;
-
 import java.util.*;
 import java.io.*;
 
