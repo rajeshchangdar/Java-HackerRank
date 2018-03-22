@@ -26,22 +26,6 @@ class Solution
 	
     public static void main(String []argh) throws IOException, NumberFormatException
     {
-    	
-    	/*
-    	DataInputStream dis = new DataInputStream(System.in);
-    	String s = dis.readLine();
-    	String arr [] = s.split(" ");
-    	int len = arr.length;
-    	int iArr [] = new int [len];
-    	
-    	for(int y=0; y<arr.length; y++){
-    		iArr[y] = Integer.parseInt(arr[y]);
-    	}
-    	
-    	for(int y=0; y<arr.length; y++){
-    	System.out.print(iArr [y]+" ");
-    	}*/
-    	
     	Solution sol=new Solution();
     	Scanner in = new Scanner(System.in);
         int t=in.nextInt();
@@ -65,7 +49,5 @@ class Solution
         
         in.close();
         
-    	
-    	
-    }
+   }
 }
